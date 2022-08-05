@@ -139,3 +139,115 @@ header {
     z-index: 200;
     background: white;
 }
+
+
+/* footer */
+.iconHolder {
+    background-color: #8F49F9;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+}
+
+
+/* footer */
+.footer.py-5 {
+    background: url("../img/Group 502.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.footer .input-group {
+    background: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn-white.shadow.text-primary.mx-4 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-item {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .header-content.my-5 .row {
+        flex-direction: column-reverse;
+    }
+
+    .tagLine.text-white {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .slide.p-5 {
+        padding: 0 !important;
+    }
+
+    .slide .card-body.p-5 {
+        padding: 20px !important;
+    }
+
+    .btn.btn-next.slick-arrow {
+        position: absolute;
+        z-index: 10;
+        bottom: -40px;
+        right: 5%;
+        background: #8F49F9;
+        color: white;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn.btn-prev.slick-arrow {
+        position: absolute;
+        z-index: 10;
+        bottom: -40px;
+        left: 5%;
+        background: #8F49F9;
+        color: white;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogs.py-5 {
+        padding-top: 60px !important;
+    }
+
+    .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start !important;
+    }
+
+    section.py-5 {
+        padding: 20px 0 !important;
+    }
+
+    .btns.text-center .btn {
+        margin-top: 20px;
+    }
+}
