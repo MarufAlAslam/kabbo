@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'larkesans';
+    src: url('../fonts/Larke\ Sans\ Bold.ttf');
+}
+
+* {
+    font-family: 'larkesans';
+    font-size: 22px;
+    /* line-height: 1; */
+}
+
+/* header styles */
+header {
+    background: url('../img/Group\ 499.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-size: 55px;
+    line-height: 1;
+}
+
+.nav-item {
+    margin-left: 45px;
+}
+
+.tagLine {
+    font-size: 60px;
+    line-height: 1;
+}
