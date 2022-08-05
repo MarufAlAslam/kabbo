@@ -30,3 +30,24 @@ header {
     font-size: 60px;
     line-height: 1;
 }
+
+.text-primary {
+    color: #8F49F9 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* plan */
+.section-title {
+    font-size: 52px;
+    line-height: 1;
+}
