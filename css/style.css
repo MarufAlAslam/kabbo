@@ -51,3 +51,31 @@ header {
     font-size: 52px;
     line-height: 1;
 }
+
+
+
+
+
+
+
+
+/* fantasy */
+.fantasy .card {
+    background: url("../img/box.png");
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon-holder {
+    background: #9DE78A;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    box-shadow: -10px 11px #9DE78A6E;
+}
