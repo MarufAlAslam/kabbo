@@ -79,3 +79,13 @@ header {
     margin-bottom: 40px;
     box-shadow: -10px 11px #9DE78A6E;
 }
+
+
+
+
+/* creative */
+.btn-primary {
+    border: unset;
+    background-color: #8F49F9;
+    color: white;
+}
